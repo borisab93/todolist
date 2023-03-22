@@ -7,7 +7,8 @@ const _ = require("lodash");
 
 const app = express();
 
-const uri = "mongodb+srv://borisab93:0528135303aA@cluster0.xcccp3q.mongodb.net/?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://borisab93:0528135303aA@cluster0.xcccp3q.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://borisab93:0528135303aA@cluster0.xcccp3q.mongodb.net/todolistDB";
 
 app.set('view engine', 'ejs');
 
